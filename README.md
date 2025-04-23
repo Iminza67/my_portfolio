@@ -44,11 +44,10 @@ The UI follows a **minimalist, modern design**, using neutral tones and strong l
 To run this project locally:
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/Iminza67/my_portfolio.git
    ```
-
-````
 
 2. **Navigate to the project directory**
 
@@ -77,7 +76,7 @@ To run this project locally:
 Feel free to connect or reach out:
 
 - [LinkedIn – Olivia Hamisi](https://www.linkedin.com/in/olivia-hamisi-7080632a2/)
-- ✉️ _Email available upon request_
+- ✉️ _Email: oliviahamisi@gmail.com_
 
 ---
 
@@ -95,4 +94,7 @@ You are free to use, modify, and distribute this project for personal or commerc
 ---
 
 ```
-````
+
+```
+
+```
