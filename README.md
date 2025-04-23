@@ -1,60 +1,101 @@
-🌐 **Personal Portfolio Website**
-Welcome to my Personal Portfolio website! This project showcases my skills, projects, and experience in web development and more.
+Sure! Here's the same content, formatted perfectly for a `README.md` file on GitHub using proper Markdown syntax, including headers, code blocks, and link formatting:
 
-🚀 **Technologies Used**
+---
 
-React: A JavaScript library for building user interfaces.  
-**HTML5**: The standard markup language for creating web pages.  
-_Bootstrap_: A powerful, responsive front-end framework for faster and easier web development.  
-_Web3 Forms API_: Integrated for seamless form submissions and handling.  
-_MailerLite API_: Used for managing and automating email newsletters.  
-_FontAwesome (via CDNJS)_: Icon library for scalable vector icons.  
-_Animate CSS_: A library for cross-browser animations that adds life to the website.
+````markdown
+# 🌐 Personal Portfolio Website – _Imora_
 
-📄 Features
+Welcome to **Imora**, my personal portfolio website built to showcase my skills, experience, and selected projects in web development, UI/UX, and digital business. This single-page React application emphasizes performance, accessibility, and clean design.
 
-_Responsive Design_: The website is fully responsive, adapting to any screen size.  
-_Interactive UI_: Built with React and Bootstrap to ensure a smooth and interactive user experience.  
-_Contact Form_: Integrated with Web3 Forms API for secure and reliable form submissions.  
-_Newsletter Subscription_: Connected to MailerLite for easy newsletter sign-ups and management.  
-_Smooth Animations_: Enhanced user experience with subtle animations using Animate CSS.  
-_Iconography_: Utilized FontAwesome for visually appealing and accessible icons throughout the website.
+---
 
-🎨 Design
+## 🚀 Tech Stack
 
-The portfolio features a modern, clean, and minimalistic design. Bootstrap's grid system ensures a consistent layout across devices, while the combination of FontAwesome icons and Animate CSS adds a touch of elegance and interactivity.
+- **React** – Component-based library for building dynamic user interfaces
+- **HTML5** – Semantic markup for structured, accessible content
+- **Bootstrap 5** – Responsive layout system and utility classes
+- **FontAwesome** (via CDNJS) – Scalable vector icons for UI clarity
+- **Animate.css** – CSS animations for enhanced interactivity
 
-🛠 Installation & Setup  
-To get a local copy up and running, follow these steps:
+---
 
-Clone the repository:
+## 📄 Features
 
-```sh
-git clone https://github.com/INTSEAN/portfolio.git
+- ✅ **Fully Responsive Design**  
+  Optimized across all device sizes using Bootstrap’s grid system
+
+- 🎯 **Interactive UI Components**  
+  Built with React for seamless interaction and modularity
+
+- 💫 **Smooth Animations**  
+  Animate.css enriches UX with subtle motion and transitions
+
+- 🧭 **Intuitive Iconography**  
+  FontAwesome icons improve visual hierarchy and user flow
+
+- 🌐 **Modern Web Standards**  
+  SEO-friendly structure, accessible markup, and fast load times
+
+---
+
+## 🎨 Design Approach
+
+The UI follows a **minimalist, modern design**, using neutral tones and strong layout consistency. The focus is on content and functionality, with responsive elements adapting fluidly across screen sizes.
+
+---
+
+## 🛠 Installation & Setup
+
+To run this project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Iminza67/my_portfolio.git
+   ```
+````
+
+2. **Navigate to the project directory**
+
+   ```bash
+   cd my_portfolio
+   ```
+
+3. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+4. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser at [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 📫 Contact
+
+Feel free to connect or reach out:
+
+- [LinkedIn – Olivia Hamisi](https://www.linkedin.com/in/olivia-hamisi-7080632a2/)
+- ✉️ _Email available upon request_
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute this project for personal or commercial use.
+
+---
+
+> Built with ❤️ and React by Olivia Hamisi
+
 ```
 
-Navigate to the project directory:
+---
 
-```sh
-cd portfolio
 ```
-
-Install dependencies:
-
-```sh
-npm install
-```
-
-Run the development server:
-
-```sh
-npm start
-```
-
-The website should now be running locally at http://localhost:3000.
-
-📧 Contact
-Feel free to reach out to me via the contact form on my website: https://seandonovan.tech/ or connect with me on LinkedIn: https://www.linkedin.com/in/seandonovan-upenn/
-
-📝 License
-This project is open-source and available under the MIT License.
