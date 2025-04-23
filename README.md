@@ -1,8 +1,3 @@
-Sure! Here's the same content, formatted perfectly for a `README.md` file on GitHub using proper Markdown syntax, including headers, code blocks, and link formatting:
-
----
-
-````markdown
 # 🌐 Personal Portfolio Website – _Imora_
 
 Welcome to **Imora**, my personal portfolio website built to showcase my skills, experience, and selected projects in web development, UI/UX, and digital business. This single-page React application emphasizes performance, accessibility, and clean design.
@@ -52,6 +47,7 @@ To run this project locally:
    ```bash
    git clone https://github.com/Iminza67/my_portfolio.git
    ```
+
 ````
 
 2. **Navigate to the project directory**
@@ -87,7 +83,7 @@ Feel free to connect or reach out:
 
 ## 📝 License
 
-This project is licensed under the **MIT License**.  
+This project is licensed under the **MIT License**.
 You are free to use, modify, and distribute this project for personal or commercial use.
 
 ---
@@ -99,3 +95,4 @@ You are free to use, modify, and distribute this project for personal or commerc
 ---
 
 ```
+````
