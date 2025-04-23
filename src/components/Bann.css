@@ -1,0 +1,263 @@
+.bann {
+  background: linear-gradient(to right, #6200d3, #BA55D3); /* Darker purple accent gradient */
+  color: white;
+  padding: 60px 0;
+  position: relative;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.bann-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bann-heading {
+  font-size: 2.5rem; /* Adjusted font size for consistency */
+  margin-bottom: 15px;
+  font-weight: 300; /* Lighter weight for readability */
+  color: white; /* Consistent with the text color in banner */
+}
+
+.bann-description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: 100;
+  color: white; /* Ensuring description text matches */
+}
+
+.bann-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: transparent;
+  padding: 1px 2px;
+  border: none;
+}
+
+.loader {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  height: 40px;
+  padding: 10px 10px;
+  display: flex;
+  border-radius: 8px;
+}
+
+.words {
+  overflow: hidden;
+  position: relative;
+}
+
+.words::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+}
+
+.word {
+  display: block;
+  height: 100%;
+  padding-left: 6px;
+  color: #E4E4E7; /* Light text color for contrast */
+  font-weight: 100;
+  animation: spin_4991 5s infinite;
+}
+
+@keyframes spin_4991 {
+  10% {
+    transform: translateY(-102%);
+  }
+
+  25% {
+    transform: translateY(-100%);
+  }
+
+  35% {
+    transform: translateY(-202%);
+  }
+
+  50% {
+    transform: translateY(-200%);
+  }
+
+  60% {
+    transform: translateY(-302%);
+  }
+
+  75% {
+    transform: translateY(-300%);
+  }
+
+  85% {
+    transform: translateY(-402%);
+  }
+
+  100% {
+    transform: translateY(-400%);
+  }
+}
+
+.bann-button {
+  position: relative;
+  display: inline-flex;
+  height: 3.5rem;
+  align-items: center;
+  border-radius: 9999px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: #000000; /* Black text color for button */
+  letter-spacing: -0.06em;
+  box-shadow: 0px 0px 105px 6px rgba(255, 255, 255, 1);
+  transition: all 0.3s ease;
+}
+
+.bann-button-item {
+  background-color: rgb(255, 255, 255);
+  color: #ffffff;
+}
+
+.bann-button-item .bann-button-bg {
+  border-color: rgb(255, 255, 255);
+  border: 1px solid rgb(186, 201, 255);
+  background-color: rgba(51, 0, 255, 0.68);
+}
+
+.bann-button-inner,
+.bann-button-inner-hover,
+.bann-button-inner-static {
+  pointer-events: none;
+  display: block;
+}
+
+.bann-button-inner {
+  position: relative;
+}
+
+.bann-button-inner-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateY(70%);
+}
+
+.bann-button-bg {
+  overflow: hidden;
+  border-radius: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  transition: transform 1.8s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.bann-button-bg-layers {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -60%;
+  aspect-ratio: 1 / 1;
+  width: max(200%, 10rem);
+}
+
+.bann-button-bg-layer {
+  border-radius: 9999px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+}
+
+.bann-button-bg-layer.-purple {
+  background-color: rgba(163, 116, 255); /* Purple accent layer */
+}
+
+.bann-button-bg-layer.-turquoise {
+  background-color: rgba(23, 241, 209); /* Neon Blue layer */
+}
+
+.bann-button-bg-layer.-yellow {
+  background-color: rgba(255, 255, 255, 1); /* White Highlights layer */
+}
+
+.bann-button:hover .bann-button-inner-static {
+  opacity: 0;
+  transform: translateY(-70%);
+  transition:
+    transform 1.4s cubic-bezier(0.19, 1, 0.22, 1),
+    opacity 0.3s linear;
+}
+
+.bann-button:hover .bann-button-inner-hover {
+  opacity: 1;
+  color: black;
+  border-color: black;
+  transform: translateY(0);
+  transition:
+    transform 1.4s cubic-bezier(0.19, 1, 0.22, 1),
+    opacity 1.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.bann-button:hover .bann-button-bg-layer {
+  transition:
+    transform 1.3s cubic-bezier(0.19, 1, 0.22, 1),
+    opacity 0.3s linear;
+}
+
+.bann-button:hover .bann-button-bg-layer-1 {
+  transform: scale(1);
+}
+
+.bann-button:hover .bann-button-bg-layer-2 {
+  transition-delay: 0.1s;
+  transform: scale(1);
+}
+
+.bann-button:hover .bann-button-bg-layer-3 {
+  transition-delay: 0.2s;
+  transform: scale(1);
+}
+
+.button-wrapper {
+  position: relative;
+  z-index: 10;
+}
+
+.bann-container.blurred {
+  filter: blur(5px);
+  transition: filter 0.3s ease-in-out;
+}
+.animated-linkedin-button {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animated-linkedin-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(10, 132, 255, 0.6);
+}
